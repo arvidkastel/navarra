@@ -45,12 +45,6 @@
 						<h3>Recension av I ljusningen</h3>
 						<p>Från <a href="https://www.lira.se/skivrecension/i-ljusningen">Lira</a></p>
 					</div>
-					<div class="span3">
-						<h3>WOMEX-konsert i P2</h3>
-						<p>
-							<a href="http://sverigesradio.se/sida/avsnitt/377860?programid=4427">Lyssna här</a>
-						</p>
-					</div>
 				</div>
 			</div>
 		</div>
