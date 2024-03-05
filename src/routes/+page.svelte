@@ -22,11 +22,11 @@
 		<div class="container-wrap">
 			<div class="container">
 				<div class="row" id="header">
-					<a href="#bio">Biografi</a>
+					<a href="#biography">Biografi</a>
 					<a href="#music">Musik</a>
 					<a href="#videos">Videor</a>
 					<a href="#photos">Foton</a>
-					<a href="#contact">Kontakt</a>
+					<!-- <a href="#contact">Kontakt</a> -->
 					<!-- <a href="https://navarra.me/index.php?lang=en"><small>English</small></a> -->
 				</div>
 			</div>
