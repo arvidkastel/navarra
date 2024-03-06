@@ -13,7 +13,7 @@
 		<link href="./css(4)" rel="stylesheet" type="text/css" /> -->
 
 		<title>Navarra</title>
-		<link rel="stylesheet" href="./styles.css" />
+		<!-- <link rel="stylesheet" href="./styles.css" /> -->
 		<link rel="stylesheet" href="./bootstrap.css" />
 		<link rel="stylesheet" href="./bootstrap-responsive.css" />
 	</head>
@@ -34,14 +34,14 @@
 		<div class="container-wrap">
 			<div class="container">
 				<div class="row content-row">
-					<div class="span3">
+					<div class="span4">
 						<h1>Nytt!</h1>
 					</div>
-					<div class="span3">
+					<div class="span4">
 						<h3>I ljusningen är ute!</h3>
 						<p>Lyssna <a href="https://song.link/album/se/i/1477398361">här</a></p>
 					</div>
-					<div class="span3">
+					<div class="span4">
 						<h3>Recension av I ljusningen</h3>
 						<p>Från <a href="https://www.lira.se/skivrecension/i-ljusningen">Lira</a></p>
 					</div>
@@ -53,33 +53,26 @@
 			<div class="container">
 				<br /><br /><br />
 				<div class="row content-row">
-					<div class="span1" style="position: relative">
-						<span
-							style="font-size:224px; position: absolute; top: -100px; left: 50px; color: #ccc; z-index:-1;"
-							>”</span
-						>
-					</div>
-
-					<div class="span3" style="z-index:2;">
+					<div class="span4" style="z-index:2;">
 						<em>
 							"Navarra vill och lyckas öppna nya fönster till folkmusiken... / ...musik med hjärna
 							och hjärta."
-						</em><br />
+						</em><br /><br />
 						<b> Thomas Johansson, Kulturbloggen</b>
 					</div>
 
-					<div class="span3">
+					<div class="span4">
 						<em>
 							"... ett av årets mest intressanta och innovativa album.", "Mer smittande än
 							pingvininfluensan"
-						</em><br />
+						</em><br /><br />
 						<b>Ola Claesson, Smålandsposten</b>
 					</div>
-					<div class="span3">
+					<div class="span4">
 						<em>
 							"The stars for me of the whole event were the last night's performers, the energetic
 							&amp; charismatic Swedish combo Navarra"
-						</em><br />
+						</em><br /><br />
 						<b> Gwen Davies, New Welsh Review</b>
 					</div>
 					<br />
@@ -132,24 +125,26 @@
 				<h1>
 					Biografi <div>&nbsp;</div>
 				</h1>
-				<p>
-					Navarra har sedan starten 2009 uppmärksammats för sin oemotståndliga energi och sitt
-					genuint originella förhållande till nordisk folkmusik. Första albumet Nya Fönster
-					nominerades till Manifestpriset för årets folkmusikalbum och pris för årets nykomling på
-					Folk- och världsmusikgalan 2012. Recensenterna beskrev Nya Fönster som "ett av årets mest
-					intressanta album" och skrev att "Navarra vill och lyckas öppna nya fönster till
-					folkmusiken". Musiken är både komplex och enkel, ösig och ömsint, och de nyskrivna
-					texterna har fått många att hitta in i en genre där traditionstexterna ibland känns
-					främmande.
-				</p>
-				<p>
-					Projektet tog sin början i Göteborg med Arvids och Sofias ambition att skriva musik
-					tillsammans. Inspirationen kom från många håll, men hade tyngdpunkt i nordisk folkmusik.
-					Språket skulle vara svenska. Efter ett par experiment med sättning föll allt på plats när
-					Erika och Calle kom med i bandet, och Navarra fick sin nuvarande form. Bandet blev snabbt
-					uppmärksammat för sina liveframträdanden, och har spelat på de flesta stora scener för
-					folkmusik i Sverige och Norge.
-				</p>
+				<div style="columns:2; column-gap: 45px">
+					<p>
+						Navarra har sedan starten 2009 uppmärksammats för sin oemotståndliga energi och sitt
+						genuint originella förhållande till nordisk folkmusik. Första albumet Nya Fönster
+						nominerades till Manifestpriset för årets folkmusikalbum och pris för årets nykomling på
+						Folk- och världsmusikgalan 2012. Recensenterna beskrev Nya Fönster som "ett av årets
+						mest intressanta album" och skrev att "Navarra vill och lyckas öppna nya fönster till
+						folkmusiken". Musiken är både komplex och enkel, ösig och ömsint, och de nyskrivna
+						texterna har fått många att hitta in i en genre där traditionstexterna ibland känns
+						främmande.
+					</p>
+					<p>
+						Projektet tog sin början i Göteborg med Arvids och Sofias ambition att skriva musik
+						tillsammans. Inspirationen kom från många håll, men hade tyngdpunkt i nordisk folkmusik.
+						Språket skulle vara svenska. Efter ett par experiment med sättning föll allt på plats
+						när Erika och Calle kom med i bandet, och Navarra fick sin nuvarande form. Bandet blev
+						snabbt uppmärksammat för sina liveframträdanden, och har spelat på de flesta stora
+						scener för folkmusik i Sverige och Norge.
+					</p>
+				</div>
 				<div class="row content-row">
 					<div class="span3">
 						<h2>Arvid Kästel</h2>
@@ -204,82 +199,43 @@
 		<div class="container-wrap">
 			<div class="container">
 				<a id="music"></a>
-				<h1>
-					Musik
-					<a href="http://open.spotify.com/artist/24vZWtR4GWohgylpInfGbV">
-						<img src="./spotify.png" />
-					</a>
-					<a href="https://itunes.apple.com/se/artist/navarra/id286570152">
-						<img src="./itunes.png" />
-					</a>
-				</h1>
+				<h1>Musik</h1>
 				<div class="row content-row">
 					<div class="span4">
 						<iframe
+							style="border-radius:12px"
+							src="https://open.spotify.com/embed/album/2MWLHI7FbdYDBS4uvkvXea?utm_source=generator&theme=0"
 							width="100%"
-							height="166"
-							scrolling="no"
-							frameborder="no"
-							src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F102833166%3Fsecret_token%3Ds-jIdh7"
+							height="352"
+							frameBorder="0"
+							allowfullscreen=""
+							allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+							loading="lazy"
 						></iframe>
 					</div>
 					<div class="span4">
 						<iframe
+							style="border-radius:12px"
+							src="https://open.spotify.com/embed/album/1I1zMAJx9eS5NGZPneuDzc?utm_source=generator&theme=0"
 							width="100%"
-							height="166"
-							scrolling="no"
-							frameborder="no"
-							src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F102833297%3Fsecret_token%3Ds-xyUkH"
+							height="352"
+							frameBorder="0"
+							allowfullscreen=""
+							allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+							loading="lazy"
 						></iframe>
 					</div>
 					<div class="span4">
 						<iframe
+							style="border-radius:12px"
+							src="https://open.spotify.com/embed/album/6fZtScoWMEK7gdhD5bKxq9?utm_source=generator&theme=0"
 							width="100%"
-							height="166"
-							scrolling="no"
-							frameborder="no"
-							src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F102833470%3Fsecret_token%3Ds-F1ttM"
+							height="352"
+							frameBorder="0"
+							allowfullscreen=""
+							allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+							loading="lazy"
 						></iframe>
-					</div>
-				</div>
-				<br /> <br />
-				<div class="row content-row">
-					<div class="span3">
-						<img src="./nya_fonster.jpg" /><br />
-						<!-- <a href="https://navarra.me/files/Pressrelease_KAKACD004.pdf">Pressrelease</a> -->
-					</div>
-					<div class="span3">
-						<h3>Nya fönster (2011)</h3>
-						1. Vågar Du<br />
-						2. Vals Till Alla Idioter<br />
-						3. Ta Mig Bort<br />
-						4. Dagen Är Sin Egen Väg<br />
-						5. Så Kom Fram<br />
-						6. Vaggvisa Till Hevin <br />
-						7. Ensam<br />
-						8. Sväng Dig I Dansen<br />
-						9. Manen I Svart<br />
-						10. Liten Vals Av Glas<br />
-						11. Kärringen I Trädet<br />
-						12. Vandra Vidare<br />
-					</div>
-					<div class="span3">
-						<img src="./om_natten.jpg" /><br />
-						<!-- <a href="https://navarra.me/files/Pressrelease_KAKACD015_web.pdf">Pressrelease</a> -->
-					</div>
-					<div class="span3">
-						<h3>Om natten (2013)</h3>
-						1. Dansar<br />
-						2. Tystnad läker inga sår<br />
-						3. Naket hjärta <br />
-						4. Halling<br />
-						5. Bostadskarriär<br />
-						6. Hur lång är natten<br />
-						7. Vatten mellan stenarna<br />
-						8. Fjärilen<br />
-						9. Fredag <br />
-						10. Vänligt hopplöst nej<br />
-						11. Lillebror<br />
 					</div>
 				</div>
 			</div>
@@ -506,7 +462,7 @@ F√∂rband: Lyset i forsen
 	body {
 		margin: 0;
 		padding: 0;
-		font-size: 15px;
+		font-size: 18px;
 	}
 
 	.container-wrap:nth-child(odd) {
@@ -674,7 +630,7 @@ F√∂rband: Lyset i forsen
 
 	#biography td {
 		width: 50%;
-		text-align: justify;
+		/* text-align: justify; */
 		padding: 15px;
 		vertical-align: top;
 	}
@@ -704,17 +660,17 @@ F√∂rband: Lyset i forsen
 
 	#bio-div {
 		width: 500px;
-		text-align: justify;
+		/* text-align: justify; */
 	}
 
 	p {
 		text-indent: 12px;
-		text-align: justify;
+		/* text-align: justify; */
 	}
 
 	.content-row {
-		margin-top: 10px;
-		margin-bottom: 10px;
+		margin-top: 45px;
+		margin-bottom: 45px;
 	}
 
 	img {
@@ -737,8 +693,9 @@ F√∂rband: Lyset i forsen
 	}
 
 	h1 {
-		margin-top: 20px;
-		height: 30px;
+		margin-top: 25px;
+		margin-bottom: 15px;
+
 		font-size: 50px;
 		top: 0px;
 		position: relative;
